@@ -1,0 +1,20 @@
+
+name: hoomd-workshop
+version: 2022.0
+
+channels:
+  - conda-forge
+specs:
+  - python ==3.7
+  - pip
+  - conda
+  - mamba
+  - hoomd ==3.2.0=*gpu*
+  - freud
+  - matplotlib
+  - fresnel
+  - gsd
+
+# do not edit below this line
+# ---------------------------
+installer_type: sh

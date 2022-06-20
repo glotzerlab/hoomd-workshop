@@ -1,0 +1,13 @@
+# Instructions to build binaries for colab
+
+* Install `constructor` with conda.
+* Before making the release:
+  * Update the condacolab install lines in the notebooks to point to the new release.
+  * Update the release number in `construct.yaml`.
+* Run:
+
+      constructor --platform linux-64 .
+
+* Make a GitHub release and upload the file to the release.
+
+For more information see: https://pypi.org/project/condacolab/
