@@ -9,7 +9,7 @@ specs:
   - pip
   - conda
   - mamba
-  - hoomd ==3.2.0=*gpu*
+  - hoomd ==3.2.0
   - freud
   - matplotlib
   - fresnel
