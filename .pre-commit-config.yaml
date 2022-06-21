@@ -45,10 +45,6 @@ repos:
     rev: 0.5.0
     hooks:
       - id: nbstripout
-        args:
-          # Strip metadata but keep counts and outputs
-          - --keep-count
-          - --keep-output
   - repo: https://github.com/bdice/nb-strip-paths
     rev: v0.1.0
     hooks:
