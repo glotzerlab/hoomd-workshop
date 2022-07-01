@@ -8,6 +8,10 @@
 
       constructor --platform linux-64 .
 
-* Make a GitHub release and upload the file to the release.
+* Make a GitHub release and upload the file to the release. For example:
+
+      git tag -a v2022.0.1
+      git push origin --tags
+      gh release create 2022.0.1 hoomd-workshop-2022.0.1-Linux-x86_64.sh
 
 For more information see: https://pypi.org/project/condacolab/
