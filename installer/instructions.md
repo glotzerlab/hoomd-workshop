@@ -1,7 +1,7 @@
 # Instructions to build binaries for colab
 
 * Install `constructor` with conda.
-* Before making the release:
+* Before making the release, run `bump2version` to:
   * Update the condacolab install lines in the notebooks to point to the new release.
   * Update the release number in `construct.yaml`.
 * Run:
