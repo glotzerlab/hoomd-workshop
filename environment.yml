@@ -2,6 +2,7 @@ name: hoomd-workshop
 channels:
   - conda-forge
 dependencies:
+  - python=3.11
   - hoomd=3.9.*=*cpu*
   - freud
   - matplotlib
