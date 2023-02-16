@@ -10,8 +10,8 @@
 
 * Make a GitHub release and upload the file to the release. For example:
 
-      git tag -a v2023.0.0
+      git tag -a v2023.1.0
       git push origin --tags
-      gh release create 2023.0.0 hoomd-workshop-2023.0.0-Linux-x86_64.sh
+      gh release create 2023.1.0 hoomd-workshop-2023.1.0-Linux-x86_64.sh
 
 For more information see: https://pypi.org/project/condacolab/

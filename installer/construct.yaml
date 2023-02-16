@@ -1,6 +1,6 @@
 
 name: hoomd-workshop
-version: 2023.0.0
+version: 2023.1.0
 
 channels:
   - conda-forge
