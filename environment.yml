@@ -2,7 +2,7 @@ name: hoomd-workshop
 channels:
   - conda-forge
 dependencies:
-  - hoomd
+  - hoomd=3.9
   - freud
   - matplotlib
   - fresnel
